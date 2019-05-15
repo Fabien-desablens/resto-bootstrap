@@ -1,6 +1,6 @@
-.container {
+.container-fluid {
   background-color: #363636;
-  color: bisque;
+  color: #29d337;
 }
 
 .col-1, .col-2, .col-4, .col-3, .col-6, .col-5, .col-12, .col-md-4, .col-md-8, .col-md-10 {
@@ -8,17 +8,7 @@
   border: 2px solid #7e7e7e;
 }
 
-.Top img {
-  width: 50%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+img {
+  width: 30%;
 }
 /*# sourceMappingURL=style.css.map */
