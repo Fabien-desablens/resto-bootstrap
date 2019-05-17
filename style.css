@@ -7,16 +7,21 @@ body {
   padding: 0;
 }
 
-.container-fluid {
-  width: 100%;
-}
-
-.col-1, .col-2, .col-4, .col-3, .col-6, .col-5, .col-12, .col-md-4, .col-md-8, .col-md-10 {
+.col-1,
+.col-2,
+.col-4,
+.col-3,
+.col-6,
+.col-5,
+.col-12,
+.col-md-4,
+.col-md-8,
+.col-md-10 {
   background-color: #FAC134;
 }
 
 img {
-  width: 40%;
+  width: 30%;
   -webkit-transform: scale(1.65);
           transform: scale(1.65);
   margin-left: 30%;
@@ -31,13 +36,20 @@ img {
   }
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  width: 200%;
+@media (max-width: 992px) {
+  .horaire li {
+    font-size: 0.8em;
+  }
+  article iframe {
+    height: 200%;
+  }
 }
 
-.carousel {
-  padding: 0;
-  margin: 0;
+.carousel-item > img {
+  width: 65%;
+  height: 40%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navbar {
@@ -47,6 +59,14 @@ img {
 .navbar-custom {
   width: 100%;
   background-color: #FAC134;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: #df7f25;
 }
 
 .nav-item a {
@@ -70,6 +90,10 @@ img {
   border-radius: 0;
 }
 
+.panel {
+  height: 500px;
+}
+
 .horaire ul {
   list-style: none;
 }
@@ -77,5 +101,31 @@ img {
 .horaire {
   padding-top: 5%;
   font-size: 150%;
+}
+
+.jumbotron .btn {
+  font-size: 40%;
+  font-weight: bold;
+  background: url("/images/Nouveau projet(1).png");
+  opacity: 0.75;
+}
+
+.jumbotron .btn:hover {
+  opacity: 1;
+}
+
+/*Carte*/
+.carte h2,
+.list-group {
+  margin: 0;
+  color: #2c2a2a;
+}
+
+.carte-container {
+  padding: 0;
+}
+
+.desserts {
+  padding-top: 1%;
 }
 /*# sourceMappingURL=style.css.map */
