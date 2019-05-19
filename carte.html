@@ -22,17 +22,18 @@
 
 <body>
     <main>
+        <!--Navbar-->
         <header>
-            <section class="Top">
+            <section class="row Top">
                 <article class="logo-titre col-md-12 p-0">
-                    <nav class="navbar navbar-expand-lg navbar-custom bg-custom static-top">
-                        <a class="navbar-brand" href="#"><img src="/images/PizzaAnna.png" class="img-fluid" alt=""></a>
+                    <nav class="navbar navbar-expand-lg navbar-custom bg-custom fixed-top">
+                        <a class="navbar-brand" href="index.html"><img src="/images/PizzaAnna.png" class="img-fluid" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav pl-5">
+                            <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Accueil </a>
                                 </li>
@@ -54,65 +55,13 @@
                 </article>
             </section>
         </header>
-
-
         <section class="carte text-center">
-
-            <H2 class="col-12">Menu</H2>
-            <H3 class="Plats"></H3>
-            <H3 class="Pizzas"></H3>
+            <H2 class="col-12 pb-3 pt-3">Menu</H2>
             <article class="row">
-                <ul class="list-group col-6">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">14€</span>
+                <ul class="list-group col-12 col-md-6 entrées pl-3">
+                    <li class="list-group-item font-weight-bold">
+                        <u>Entrées</u>
                     </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">20€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">10€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">14€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">20€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">10€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">14€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">20€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">10€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">14€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">20€</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Pizza
-                        <span class="badge badge-primary badge-pill">10€</span>
-                    </li>
-                </ul>
-                <ul class="list-group col-6">
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         Pizza
                         <span class="badge badge-primary badge-pill">14€</span>
@@ -162,7 +111,116 @@
                         <span class="badge badge-primary badge-pill">10€</span>
                     </li>
                 </ul>
-                <ul class="list-group col-12 desserts">
+                <ul class="list-group col-12 col-md-6 pl-3 plats">
+                    <li class="list-group-item font-weight-bold">
+                            <u>Plats</u>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                </ul>
+                <ul class="list-group col-12 col-md-6 pizzas pl-3 pt-3 pb-3">
+                    <li class="list-group-item font-weight-bold">
+                            <u>Pizzas</u>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">14€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">20€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Pizza
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                </ul>
+                <ul class="list-group col-12 col-md-6 desserts pb-3 pl-3 pt-3">
+                    <li class="list-group-item font-weight-bold">
+                            <u>Desserts</u>
+                    </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         Pizza
                         <span class="badge badge-primary badge-pill">14€</span>
@@ -214,18 +272,9 @@
                 </ul>
             </article>
         </section>
-
-
-
-
-
-
-
-
-
-
+        <!--Footer-->
         <footer class="row footer text-center  col-center">
-            <article class="horaire col-12 col-md-4">
+            <article class="horaire col-12 col-md-6">
                 <h2>Horaire du restaurant</h2>
                 <ul>
                     <li>Lundi : Fermeture</li>
@@ -237,110 +286,11 @@
                     <li>Dimanche : 18h-23h</li>
                 </ul>
             </article>
-            <article class="map col-12 col-md-4">
+            <!--Map-->
+            <article class="map col-12 col-md-6">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10170.878583593852!2d4.432055544851701!3d50.40906223045274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2260abca7fac7%3A0x8a79f76a5c5a3d65!2sAnna+Pizza!5e0!3m2!1sfr!2sbe!4v1558001146353!5m2!1sfr!2sbe"
                     width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </article>
-            <!--Contactus-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-            <article class="contact col-12 col-md-4">
-                <section class="mb-4">
-                    <!--Section heading-->
-                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto mb-5">Des questions ? Remarques ? Envie de commander
-                        une
-                        pizza ? Ecrivez nous votre message, nous vous répondrons au plus vite.</p>
-
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                                <!--Grid row-->
-                                <div class="row">
-
-                                    <!--Grid column-->
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control">
-                                            <label for="name" class="">Votre nom</label>
-                                        </div>
-                                    </div>
-                                    <!--Grid column-->
-
-                                    <!--Grid column-->
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
-                                            <label for="email" class="">Votre email</label>
-                                        </div>
-                                    </div>
-                                    <!--Grid column-->
-
-                                </div>
-                                <!--Grid row-->
-
-                                <!--Grid row-->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" class="form-control">
-                                            <label for="subject" class="">Sujet</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Grid row-->
-
-                                <!--Grid row-->
-                                <div class="row">
-
-                                    <!--Grid column-->
-                                    <div class="col-md-12">
-
-                                        <div class="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2"
-                                                class="form-control md-textarea"></textarea>
-                                            <label for="message">Votre message</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!--Grid row-->
-
-                            </form>
-
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Envoyer</a>
-                            </div>
-                            <div class="status"></div>
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-md-3 text-center">
-                            <ul class="list-unstyled mb-0">
-                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Charleroi, Rue de Dampremy 6001</p>
-                                </li>
-
-                                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                    <p>071 32 51 79</p>
-                                </li>
-
-                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                    <p>email.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <!--Grid column-->
-
-                    </div>
-
-                </section>
             </article>
         </footer>
     </main>
