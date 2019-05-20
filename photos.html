@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body-photos">
+    <main>
+        <!--Navbar-->
+        <header class="sticky-top">
+            <section class="row Top">
+                <article class="logo-titre col-md-12 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-custom bg-custom sticky-top">
+                        <a class="navbar-brand m-0" href="index.html"><img class="w-50" src="/images/PizzaAnna.png"
+                                class="img-fluid" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Accueil </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="carte.html">Carte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="photos.html">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </article>
+            </section>
+        </header>
+        <!--Photos-->
+        <ul class="nav nav-tabs row justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="1" data-toggle="tab" href="#photos1" role="tab" aria-controls="home"
+                    aria-selected="true">1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="2" data-toggle="tab" href="#photos2" role="tab" aria-controls="profile"
+                    aria-selected="false">2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="3" data-toggle="tab" href="#photos3" role="tab" aria-controls="contact"
+                    aria-selected="false">3</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active row align-center" id="photos1" role="tabpanel"
+                aria-labelledby="home-tab">
+                <img class="img-responsive w-25  mx-auto" src="images/e6dba14a22d930075ed8d2112df12448.png" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/fd1bf48d191b8e201287d6823c8ff73e.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt=""></div>
+            <div class="tab-pane fade align-center" id="photos2" role="tabpanel" aria-labelledby="profile-tab">
+                <img class="img-responsive w-25 mx-auto" src="images/e6dba14a22d930075ed8d2112df12448.png" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/fd1bf48d191b8e201287d6823c8ff73e.jpg" alt=""></div>
+            <div class="tab-pane fade align-center" id="photos3" role="tabpanel" aria-labelledby="contact-tab"><img
+                    class="img-responsive w-25 mx-auto" src="images/e6dba14a22d930075ed8d2112df12448.png" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/8ff1bebf9f43bbf9abc31abd38df9ab8.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/96b901d290b66a3553a927baabad1804.jpg" alt="">
+                <img class="img-responsive w-25 mx-auto" src="images/fd1bf48d191b8e201287d6823c8ff73e.jpg" alt=""></div>
+        </div>
+        <!--footer-->
+        <footer class="row footer text-center  col-center">
+            <article class="horaire col-12 col-md-6">
+                <h2>Horaire du restaurant</h2>
+                <ul>
+                    <li>Lundi : Fermeture</li>
+                    <li>Mardi : 18h-23h</li>
+                    <li>Mercredi : 18h-23h</li>
+                    <li>Jeudi : 18h-23h</li>
+                    <li>Vendredi : 18h-23h</li>
+                    <li>Samedi : 18h-23h</li>
+                    <li>Dimanche : 18h-23h</li>
+                </ul>
+            </article>
+            <!--Map-->
+            <article class="col-12 col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10170.878583593852!2d4.432055544851701!3d50.40906223045274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2260abca7fac7%3A0x8a79f76a5c5a3d65!2sAnna+Pizza!5e0!3m2!1sfr!2sbe!4v1558001146353!5m2!1sfr!2sbe"
+                        position="relative" width="100%" height="100%" allowfullscreen></iframe>
+                </article>
+        </footer>
+    </main>
+</body>
+</html>

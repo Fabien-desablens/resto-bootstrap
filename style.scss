@@ -2,36 +2,14 @@ $color: rgb(223, 127, 37);
 
 body {
     color: $color;
-    padding-top: 5.9%;
+    background-color: #FAC134;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .row {
     margin: 0;
     padding: 0;
 }
-
-
-.col-1,
-.col-2,
-.col-4,
-.col-3,
-.col-6,
-.col-5,
-.col-12,
-.col-md-4,
-.col-md-8,
-.col-md-10 {
-    background-color: #FAC134;
-
-}
-
-img {
-
-    width: 30%;
-    transform: scale(1.65);
-    margin-left: 30%;
-}
-
 @media (min-width: 992px) {
     .navbar li {
         margin-left: 1.5%;
@@ -40,87 +18,33 @@ img {
         font-size: 2em;
     }
 }
-
 @media (max-width: 992px) {
     .horaire li {
         font-size: 0.8em;
     }
-
-    body {
-        padding-top: 11.5%;
-    }
-
-    .entrées,
-    .plats,
-    .pizzas,
-    .desserts {
-        padding: 3%;
-    }
-
     .navbar-nav {
         text-align: center
     }
 }
-
-@media (max-width: 768px) {
-    body {
-        padding-top: 14.9%
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        padding-top: 14.65%
-    }
-}
-
-@media (max-width: 650px) {
-    body {
-        padding-top: 16.3%
-    }
-}
-
-@media (max-width: 500px) {
-    body {
-        padding-top: 22.5%
-    }
-}
-
 @media (max-width: 450px) {
-    body {
-        padding-top: 18.5%;
-    }
 
     .navbar-brand {
         width: 40%;
     }
 }
-
-.carousel-item>img {
-    width: 65%;
-    height: 40%;
-    margin-right: auto;
-    margin-left: auto
-}
-
 .navbar {
     border-bottom: 2px solid red;
 }
-
-
 .navbar-custom {
     width: 100%;
     background-color: #FAC134;
 }
-
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 .navbar-toggler {
     border-color: rgb(223, 127, 37);
 }
-
 .nav-item a {
     color: $color;
 
@@ -128,13 +52,10 @@ img {
         color: red
     }
 }
-
-
 .photos {
     padding: 0;
     margin: 0;
 }
-
 .jumbotron {
     margin: 0;
     width: 100%;
@@ -142,7 +63,6 @@ img {
     background-color: red;
     border-radius: 0
 }
-
 .jumbotron .btn {
     font-size: 40%;
     font-weight: bold;
@@ -153,112 +73,24 @@ img {
         opacity: 1
     }
 }
-
 footer {
     border-top: 3px solid red;
-}
-
-.panel {
-    height: 500px;
 }
 
 .horaire ul {
     list-style: none;
 }
-
 .horaire {
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 150%;
 }
-
-
-
-
-
 /*Carte*/
-
 .carte h2,
 .list-group {
     margin: 0;
     color: rgb(44, 42, 42);
 }
-
-.carte-container {
-    padding: 0
-}
-
 /*Contact*/
-
-@media (max-width:1500px) {
-    .contact-html {
-        padding-top: 6%
-    }
-}
-@media (max-width:1350px) {
-    .contact-html {
-        padding-top: 6.5%
-    }
-}
-@media (max-width:1350px) {
-    .contact-html {
-        padding-top: 7.4%
-    }
-}
-@media (max-width:1100px) {
-    .contact-html {
-        padding-top: 8.1%
-    }
-}
-
-@media (max-width:992px) {
-    .contact-html {
-        padding-top: 8.9%
-    }
-}
-
-@media (max-width:900px) {
-    .contact-html {
-        padding-top: 8.9%
-    }
-}
-@media (max-width:850px) {
-    .contact-html {
-        padding-top: 10.5%
-    }
-}
-
-@media (max-width:800px) {
-    .contact-html {
-        padding-top: 11%
-    }
-}
-
-@media (max-width:768px) {
-    .contact-html {
-        padding-top: 11.8%
-    }
-}
-
-@media (max-width:650px) {
-    .contact-html {
-        padding-top: 14%
-    }
-}
-@media (max-width:550px) {
-    .contact-html {
-        padding-top: 16.6%
-    }
-}
-@media (max-width:450px) {
-    .contact-html {
-        padding-top: 13%
-    }
-}
-@media (max-width:400px) {
-    .contact-html {
-        padding-top: 8.9%
-    }
-}
 
 /*Restaurant*/
 .horaire-border{
@@ -268,4 +100,8 @@ footer {
     .horaire-border{
     border:0px solid;
     }
+}
+/*Photos*/
+.align-center{
+    text-align: center
 }
