@@ -4,7 +4,7 @@ Le site est un site fait pour un restaurant (pizzeria/resto italien) imaginaire.
 J'ai tout inventé mais j'ai suivi les instructions qu'on m'avait donné:
 
 *Composition du site*
-*Il faut au minimum :
+*Il faut au minimum :*
 
 *Une page Accueil avec un composant Jumbotron et deux panneaux (panel) pour afficher des news (genre promotions, news ou* *évènements de la semaine)*
 *Une page Carte avec les menus présentés sous forme de liste groupée avec badges*
@@ -14,7 +14,8 @@ J'ai tout inventé mais j'ai suivi les instructions qu'on m'avait donné:
 *Conseils*
 *Prends le temps de préparation nécessaire (prototypage, contenu, dessins, plans, prendre des notes sur papier avant de* *commencer).*
 *Lis bien les consignes, lis bien les consignes, lis bien les consiiiiignes !!!*
-*Prépare ton contenu, ensuite seulement applique la structure puis les classes et id et ensuite le CSS ! Ne vous éparpillez* *pas, allez-y pas à pas, page par page,... *
+*Prépare ton contenu, ensuite seulement applique la structure puis les classes et id et ensuite le CSS ! 
+*Ne vous éparpillez pas, allez-y pas à pas, page par page,... *
 
 
 Personne ayant réalisé le travail: Fabien Desablens.
