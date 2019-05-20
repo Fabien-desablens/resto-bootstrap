@@ -15,7 +15,7 @@ J'ai tout inventé mais j'ai suivi les instructions qu'on m'avait donné:
 *Prends le temps de préparation nécessaire (prototypage, contenu, dessins, plans, prendre des notes sur papier avant de* *commencer).*
 *Lis bien les consignes, lis bien les consignes, lis bien les consiiiiignes !!!*
 *Prépare ton contenu, ensuite seulement applique la structure puis les classes et id et ensuite le CSS ! 
-*Ne vous éparpillez pas, allez-y pas à pas, page par page,... *
+*Ne vous éparpillez pas, allez-y pas à pas, page par page,...*
 
 
 Personne ayant réalisé le travail: Fabien Desablens.
