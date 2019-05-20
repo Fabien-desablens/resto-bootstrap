@@ -23,6 +23,8 @@ Date du travail: 14-20 mai 2019
 
 Site fait avec bootstrap dans le cadre d'un projet réalisé chez **Becode**.
 
+## Difficultés
+
 Difficultés rencontrées: Mettre la navbar en sticky-top n'a pas été facile.
 Les iframes ne se mettaient pas correctement du à certaines erreurs de codes.
 Difficultés à coder car je ne connais pas toutes les classes bootstrap.
