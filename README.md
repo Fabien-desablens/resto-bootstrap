@@ -19,6 +19,8 @@ Prépare ton contenu, ensuite seulement applique la structure puis les classes e
 
 Personne ayant réalisé le travail: Fabien Desablens.
 
+*Premier site/travail réalisé avec bootstrap*
+
 Date du travail: 14-20 mai 2019
 
 Site fait avec bootstrap dans le cadre d'un projet réalisé chez **Becode**.
