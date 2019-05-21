@@ -74,7 +74,7 @@ body {
 .jumbotron .btn {
   font-size: 40%;
   font-weight: bold;
-  background: url("/images/Nouveau projet(1).png");
+  background: url("images/Nouveau projet(1).png");
   opacity: 0.75;
 }
 
